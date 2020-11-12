@@ -1,0 +1,116 @@
+__   __ __  __  ____   ___      _______________________________________________
+||   || ||  || ||  || ||__      Hugs 98: Based on the Haskell 98 standard
+||___|| ||__|| ||__||  __||     Copyright (c) 1994-2005
+||---||         ___||           World Wide Web: http://haskell.org/hugs
+||   ||                         Report bugs to: mailto:hugs-bugs@haskell.org
+||   || Version: May 2006       _______________________________________________
+
+Haskell 98 mode: Restart with command line option -98 to enable extensions
+
+Type :? for help
+Hugs> :load "C:\\mac\\prog1.hs"
+Main> :info noNegativo
+noNegativo :: (Num a, Ord a) => a -> Bool
+
+Main> noNegativo 4
+True
+Main> noNegativo -1
+ERROR - Cannot infer instance
+*** Instance   : Num (a -> Bool)
+*** Expression : noNegativo - 1
+
+Main> noNegativo (-1)
+False
+Main> noNegativo (8)
+True
+Main> noNegativo 8
+True
+Main> :info -
+infixl 6 -
+(-) :: Num a => a -> a -> a  -- class member
+
+Main> :load "C:\\mac\\suma.hs"
+Main> :info suma
+suma :: Num a => a -> a -> a
+
+Main> suma 2 3
+5
+Main> :info /
+infixl 7 /
+(/) :: Fractional a => a -> a -> a  -- class member
+
+Main> :info mod
+infixl 7 `mod`
+mod :: Integral a => a -> a -> a  -- class member
+
+Main> mod 8 2
+0
+Main> mod 5 3
+2
+Main> suma (mod 5 3) 1
+3
+Main> mod 5 3
+2
+Main> suma (mod 5 3) (4 / 2)
+ERROR - Unresolved overloading
+*** Type       : (Integral a, Fractional a) => a
+*** Expression : suma (5 `mod` 3) (4 / 2)
+
+Main> 4 / 2
+2.0
+Main> :info div
+infixl 7 `div`
+div :: Integral a => a -> a -> a  -- class member
+
+Main> suma (mod 5 3) (div 4 2)
+4
+Main> :info fromIntegral
+fromIntegral :: (Integral a, Num b) => a -> b
+
+Main> :info fromFractional
+Unknown reference `fromFractional'
+Main> suma 1 1.5
+2.5
+Main> suma 1.0 1.5
+2.5
+Main> :load "C:\\mac\\lambda.hs"
+Main> :info suma2
+suma2 :: Num a => a -> a -> a
+
+Main> suma2 1 3 
+4
+Main> :info map
+map :: (a -> b) -> [a] -> [b]
+
+Main> map (+1) [1,2,3] 
+[2,3,4]
+Main> map (suma2 1) [1,2,3] 
+[2,3,4]
+Main> :info suma2
+suma2 :: Num a => a -> a -> a
+
+Main> :info +
+infixl 6 +
+(+) :: Num a => a -> a -> a  -- class member
+
+Main> :info <
+infix 4 <
+(<) :: Ord a => a -> a -> Bool  -- class member
+
+Main> :info .
+infixr 9 .
+(.) :: (a -> b) -> (c -> a) -> c -> b
+
+Main> :info *
+infixl 7 *
+(*) :: Num a => a -> a -> a  -- class member
+
+Main> 1 + 3 * 2
+7
+Main> :info ^
+infixr 8 ^
+(^) :: (Num a, Integral b) => a -> b -> a
+
+Main> 2 * 3 * 1
+6
+Main> 2 ^ 3 ^ 1
