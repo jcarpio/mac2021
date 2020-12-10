@@ -1,0 +1,36 @@
+"abcdefgh"
+Hugs> ['a','b','c','d'] == "abcd"
+True
+Hugs> null []
+True
+Hugs> null ['a']
+False
+Hugs> length [1,2,3]
+3
+Hugs> [1,2,3] !! 0
+1
+Hugs> head [1,2,3]
+1
+Hugs> tail [1,2,3]
+[2,3]
+Hugs> (head [1,2,3]):(tail [1,2,3])
+[1,2,3]
+Hugs> take 5 [1..]
+[1,2,3,4,5]
+Hugs> drop 3 [1,2,3,4,5]
+[4,5]
+Hugs> reverse [1,2,3]
+[3,2,1]
+Hugs> zip "abc" [1,2,3]
+[('a',1),('b',2),('c',3)]
+Hugs> unzip [('a',1), ('b',2)]
+("ab",[1,2])
+Hugs> zip "abcde" [1,2,3]
+[('a',1),('b',2),('c',3)]
+Hugs> sum [1,2,3]
+6
+Hugs> product [1,2,3]
+6
+Hugs> [x+10|x<-[1..10]]
+[11,12,13,14,15,16,17,18,19,20]
+Hugs> 
