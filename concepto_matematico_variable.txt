@@ -1,0 +1,17 @@
+
+
+Diferencia entre el concepto matemático de variable
+y el concepto imperativo o de la informática clásica
+ de variable.
+
+- En informática clásica una variable es un puntero a
+  una dirección de memoria. Una caja en la que puedo
+  guardar un valor y cambiarlo cuando quiera.
+  
+- Variable en matemáticas
+  Sea x que pertenece a los Números Naturales, 
+  sea x > 10, ...., ( x < 1 -> No se puede hacer en 
+  la misma definición)
+  
+  for(x=0; x<10; x++) -> No corresponde con el concepto
+                         matemático de variable
