@@ -24,3 +24,8 @@ El proyecto se entregará, como muy tarde, dos semanas después de la fecha ofic
 ## Calificación
 La calificación del proyecto dependerá de su complejidad, de la documentación aportada, de la calidad del código y del número de participantes del grupo. Si utilizase código de otro programador, se valorará su aportación al proyecto original, además del trabajo necesario para comprender el código original.
 
+## Enlaces que pueden ser de utilidad
+
+- Blockchain Development — Zero to Hero [Guide]
+https://medium.com/programmers-blockchain/blockchain-development-mega-guide-5a316e6d10df
+
