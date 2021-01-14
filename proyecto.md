@@ -19,7 +19,7 @@ diferencia de otras industrias ha permitido el desarrollo de proyectos como el n
 El proyecto se podrá realizar en grupo dependiendo de la complejidad del mismo. Para grupos de más de dos personas debe enviar un correo a jose.carpio@dti.uhu.es con la propuesta para su proyecto.
 
 ## Fecha de entrega
-El proyecto se entregará, como muy tarde, diez días después de la fecha oficial del examen de la asignatura.
+El proyecto se entregará, como muy tarde, dos semanas después de la fecha oficial del examen de la asignatura.
 
 ## Calificación
 La calificación del proyecto dependerá de su complejidad, de la documentación aportada, de la calidad del código y del número de participantes del grupo. Si utilizase código de otro programador, se valorará su aportación al proyecto original, además del trabajo necesario para comprender el código original.
