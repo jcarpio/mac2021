@@ -2,10 +2,9 @@
 
 Para la realización del proyecto podrá elegir una de las siguientes opciones:
 
-## 1. Crear un Smart Contract para una cryptomoneda en Haskell (Ethereum, Tezos, 
+## 1. Crear un Smart Contract para una cryptomoneda en Haskell. 
 
-con Tezos (https://developers.tezos.com/) utilizando -> Haskell | Indigo
-Las cryptomonedas se presentan en la actualidad como herramientas fundamentales del futuro. Plataformas como Ethereum permiten, no solo almacenar transacciones económicas dentro del la cadena de bloques, sino que además permiten gestionar contratos inteligentes (https://es.wikipedia.org/wiki/Contrato_inteligente). Hemos visto en la introducción a Haskell que una de sus características principales es que facilita la creación de código seguro gracias a sus restricciones. Por esta razón, Haskell se convierte en un lenguaje de programación muy adecuado para los Smart Contracts. Tezos es una cryptomoneda (https://en.wikipedia.org/wiki/Tezos) que permite gestionar Smart Contracts y su red consigue el consenso a través de un modelo de "liquid proof-of-stake".   
+La Blockchain y las cryptomonedas se presentan como herramientas fundamentales del futuro. Plataformas como Ethereum permiten, no solo almacenar transacciones económicas dentro del la cadena de bloques, sino que además permiten gestionar contratos inteligentes (https://es.wikipedia.org/wiki/Contrato_inteligente). Hemos visto en la introducción a Haskell que una de sus características principales es que facilita la creación de código seguro gracias a sus restricciones. Por esta razón, Haskell se convierte en un lenguaje de programación muy adecuado para los Smart Contracts. Numerosas cryptomonedas como Ethrereum o Tezos permiten gestionar Smart Contracts (https://en.wikipedia.org/wiki/Tezos). Si ya tiene familiaridad con alguna cryptomoneda que permita programar en Haskell, puede utilizarla para crear un Smart Contract en Haskell. Como sugerencia puede consultar Ethereum o Tezos. 
 
 ## 2. Implementar una Blockchain utilizando Haskell
 Como hemos visto anteriormente, Haskell facilita la creación de código seguro. Además incorpora características que lo hacen especialmente adecuado para los algoritmos criptográficos (https://wiki.haskell.org/Applications_and_libraries/Cryptography). En este caso, si decides elegir este proyecto tendrás que utilizar la información del paquete BlockChain de Haskell (https://hackage.haskell.org/package/blockchain) de forma que podrás añadir tus propias características a tu implementación.
