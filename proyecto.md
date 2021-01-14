@@ -32,3 +32,6 @@ https://medium.com/programmers-blockchain/blockchain-development-mega-guide-5a31
 - How to implement a blockchain project in 5 steps
 https://hackernoon.com/how-to-implement-a-blockchain-project-in-5-steps-9c78353666f7
 
+
+- Reddit - Haskell and Ethereum
+https://www.reddit.com/r/haskell/comments/2ur1gg/haskell_and_ethereum/
