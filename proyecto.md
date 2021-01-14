@@ -29,3 +29,6 @@ La calificación del proyecto dependerá de su complejidad, de la documentación
 - Blockchain Development — Zero to Hero [Guide]
 https://medium.com/programmers-blockchain/blockchain-development-mega-guide-5a316e6d10df
 
+- How to implement a blockchain project in 5 steps
+https://hackernoon.com/how-to-implement-a-blockchain-project-in-5-steps-9c78353666f7
+
