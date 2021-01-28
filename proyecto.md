@@ -12,6 +12,9 @@ Como hemos visto anteriormente, Haskell facilita la creación de código seguro.
 ## 3. Traducir los ejercicios vistos en clase a Scala 
 Escala es un lenguaje de programación multi paradigma que incluye muchas de las características vistas en este curso de programación funcional básica. Una de los usos principales de Scala en la programación para Apache Spark (https://spark.apache.org/docs/0.9.1/scala-programming-guide.html), un sistema de computación en cluster que permite la gestión de grandes volúmenes de datos (https://es.wikipedia.org/wiki/Apache_Spark).
 
+## 4. Propuesta de proyecto en Haskell por parte de un equipo de trabajo o alumno individual.
+Si las propuestas anteriores no te motivan y tienes alguna otra idea para desarrollar en Haskell, puedes enviar tu propuesta a la dirección de correo jose.carpio@dti.uhu.es y vemos si puede ser una buena opción para vuestro proyecto.
+
 ## Instrucciones generales
 Los proyectos se entregarán en un repositorio abierto de Github. Es muy importante que en el momento de la entrega el proyecto se público. Una de las caracteristicas que queremos potenciar con esta idea es la de compartir código. Esta característica de la informática que la
 diferencia de otras industrias ha permitido el desarrollo de proyectos como el navegador web de Apache o el sistema operativo Linux como exponentes más relevantes. Además de estos proyectos, cada día se crean y se comparten multitud de proyectos gracias a plataformas como Github, Bitbucket, GitLab o similares. Si para desarrollar su proyecto necesita utilizar un código de otro programador, debe realizar un fork (copiar el proyecto haciendo referencia al autor original) y a partir de esta copia hacer sus aportaciones. En todo caso, debe respetar las condiciones de la licencia del software original.
